@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bithu</title>
+		<!-- FontAwesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<!-- Normalize Css File -->
+		<link rel="stylesheet" href="font/fontawesome.min.css" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Main Css File -->
+		<link rel="stylesheet" href="css/bithu.css" />
+		<!-- Swiper Css -->
+		<!-- <link rel="stylesheet" href="css/swiper-bundle.min.css" /> -->
+		<!-- Slick CSS -->
+		<link rel="stylesheet" href="css/slick.css" />
+	</head>
+	<body>
+		<!-- Home -->
+		<section id="home" class="home-sec">
+			<!-- Nav -->
+			<div class="nav-container">
+				<div class="container">
+					<nav id="nav" class="show-nav">
+						<div class="logo">
+							<img src="imgs/logo.png" alt="" />
+							<button id="close-btn" class="close-btn">
+								<svg
+									stroke="currentColor"
+									fill="currentColor"
+									stroke-width="0"
+									viewBox="0 0 16 16"
+									height="1.5em"
+									width="1.5em"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+									></path>
+								</svg>
+							</button>
+						</div>
+						<ul class="links flex" id="links">
+							<li><a href="#home" id="">home</a></li>
+							<li><a href="#about" id="">about</a></li>
+							<li><a href="#roadmap" id="">roadmap</a></li>
+							<li><a href="#team" id="">team</a></li>
+							<li><a href="#questions" id="">faq</a></li>
+							<li class="pages">
+								<a>pages+</a>
+								<div class="sub-menu-sec">
+									<ul class="sub-menu-links">
+										<li><a href="">home one</a></li>
+										<li><a href="">home two</a></li>
+										<li><a href="">home three</a></li>
+										<li><a href="">latest blog</a></li>
+										<li><a href="">blog Details</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+						<div class="social-links">
+							<a href="#">
+								<i class="fa-brands fa-sketch"></i>
+							</a>
+							<a href="#">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="fa-brands fa-discord"></i>
+							</a>
+						</div>
+						<div class="nav-btns flex">
+							<button id="menu-btn" class="menu-btn">
+								<svg
+									stroke="currentColor"
+									fill="currentColor"
+									stroke-width="0"
+									viewBox="0 0 24 24"
+									height="3em"
+									width="3em"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path fill="none" d="M0 0h24v24H0V0z"></path>
+									<path
+										d="M3 18h12v-2H3v2zM3 6v2h18V6H3zm0 7h18v-2H3v2z"
+									></path>
+								</svg>
+							</button>
+							<button class="btn hover join">
+								<img
+									src="https://bithu.netlify.app/static/media/hov_shape_s.ab94770525c55314d81a2a8fbe129601.svg"
+									class="before"
+									alt=""
+								/>
+								<svg
+									stroke="currentColor"
+									fill="currentColor"
+									stroke-width="0"
+									viewBox="0 0 640 512"
+									height="1em"
+									width="1em"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"
+									></path>
+								</svg>
+								<span>join</span>
+								<img
+									src="https://bithu.netlify.app/static/media/hov_shape_s.ab94770525c55314d81a2a8fbe129601.svg"
+									class="after"
+									alt=""
+								/>
+							</button>
+							<button class="btn hover connect">
+								<img
+									src="https://bithu.netlify.app/static/media/hov_shape_s.ab94770525c55314d81a2a8fbe129601.svg"
+									class="before"
+									alt=""
+								/>
+								<svg
+									stroke="currentColor"
+									fill="currentColor"
+									stroke-width="0"
+									viewBox="0 0 512 512"
+									height="1em"
+									width="1em"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M461.2 128H80c-8.84 0-16-7.16-16-16s7.16-16 16-16h384c8.84 0 16-7.16 16-16 0-26.51-21.49-48-48-48H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h397.2c28.02 0 50.8-21.53 50.8-48V176c0-26.47-22.78-48-50.8-48zM416 336c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z"
+									></path>
+								</svg>
+								<span>connect</span>
+								<img
+									src="https://bithu.netlify.app/static/media/hov_shape_s.ab94770525c55314d81a2a8fbe129601.svg"
+									class="after"
+									alt=""
+								/>
+							</button>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- Landing Info -->
+			<div class="container">
+				<div class="landing-container flex flex-ai-c flex-jc-c">
+					<div class="left">
+						<h2>CRAZY META 🎯 NFT COLLECTIONS</h2>
+						<h3>0 / 9999 MINTED</h3>
+						<div class="btns flex">
+							<button class="btn mint hover">
+								<img
+									src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg"
+									class="before"
+									alt=""
+								/>
+								mint now
+								<img
+									src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg"
+									class="after"
+									alt=""
+								/>
+							</button>
+							<button class="btn wishlist hover">
+								<img
+									src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg"
+									class="before"
+									alt=""
+								/>
+								wishlist now
+								<img
+									src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg"
+									class="after"
+									alt=""
+								/>
+							</button>
+						</div>
+						<span>MAX 2 NFTS PER WALLET . PRICE 0.09 ETH + GAS </span>
+						<br />
+						<span
+							>MINT IS LIVE
+							<span class="highlighted">UNTIL 25 APR 04:00H</span></span
+						>
+						<br />
+						<span>PRESALE : SOLDOUT </span>
+					</div>
+					<div class="right">
+						<div class="main-circle">
+							<div class="arrow flex flex-jc-c">
+								<img
+									src="https://bithu.netlify.app/static/media/mint_live_down_arrow.d249dd54578cd6b1c5dc59f8febc8ccb.svg"
+									alt=""
+								/>
+							</div>
+							<div class="rotate flex flex-jc-c">
+								<img src="imgs/c_rotate.png" alt="" />
+							</div>
+						</div>
+						<div class="big-img">
+							<div class="png">
+								<img src="imgs/Character1.png" alt="" />
+							</div>
+							<div class="bg">
+								<img src="imgs/home_img_bg.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Stats -->
+		<section class="stats-sec" id="stats-sec">
+			<div class="container">
+				<ul class="stats" id="stats">
+					<li>
+						<h3 class="items" data-goal="5555">0</h3>
+						<h4>Total Items</h4>
+					</li>
+					<li>
+						<h3 class="owners" data-goal="8946">0</h3>
+						<h4>Total Owners</h4>
+					</li>
+					<li>
+						<h3 class="f-price" data-goal="6562">0</h3>
+						<h4>Floor Price (ETH)</h4>
+					</li>
+					<li>
+						<h3 class="traded" data-goal="5546">0</h3>
+						<h4>Volume Traded (ETH)</h4>
+					</li>
+				</ul>
+			</div>
+			<img src="imgs/bg-shape-bottom-right.png" alt="left-bottom" />
+			<img src="imgs/bg-shape-top-right.png" alt="left-top" />
+			<img src="imgs/bg-shape-bottom-right.png" alt="right-top" />
+			<img src="imgs/bg-shape-top-right.png" alt="right-bottom" />
+		</section>
+		<!-- Slider -->
+		<section class="slider-sec">
+			<div class="slider-container autoplay">
+				<div class="avater">
+					<img src="imgs/carousel_avater_1.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_2.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_3.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_4.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_1.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_2.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_3.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_4.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_1.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_2.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_3.png" alt="" />
+				</div>
+				<div class="avater">
+					<img src="imgs/carousel_avater_4.png" alt="" />
+				</div>
+			</div>
+		</section>
+		<!-- How To Mint -->
+		<section class="how-to-mint-sec">
+			<div class="container">
+				<div class="main-tilte">
+					<img class="mesh-grad" src="imgs/Mesh-Grad.png" alt="" />
+					<div class="top-head">
+						<h4>easy steps</h4>
+					</div>
+					<h2>how to mint</h2>
+				</div>
+				<div class="how-to-mint-content">
+					<ul class="flex">
+						<li>
+							<span class="green">1</span>
+							<h3>Connect Your Wallet</h3>
+						</li>
+						<li>
+							<span class="blue">2</span>
+							<h3>Select Your Quantity</h3>
+						</li>
+						<li>
+							<span class="yellow">3</span>
+							<h3>Confiem the Transaction</h3>
+						</li>
+						<li>
+							<span class="red">4</span>
+							<h3>Receive Your NFTs</h3>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- About Us -->
+		<section class="about-sec" id="about">
+			<div class="container">
+				<div class="about-container flex flex-ai-c flex-jc-c">
+					<div class="left">
+						<div class="cards flex flex-ai-c flex-jc-c">
+							<div class="v1-card">
+								<div class="img">
+									<img src="imgs/about_us_img_1.png" alt="" />
+								</div>
+								<div class="shapes">
+									<div class="shapes-left">
+										<div class="shape-1"></div>
+										<div class="shape-2"></div>
+									</div>
+									<div class="shapes-right">
+										<div class="shape-3"></div>
+									</div>
+								</div>
+							</div>
+							<div class="v2-card">
+								<div class="img">
+									<img src="imgs/about_us_img_2.png" alt="" />
+								</div>
+								<div class="shapes">
+									<div class="shapes-left">
+										<div class="shape-1"></div>
+										<div class="shape-2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="main-tilte">
+							<div class="top-head">
+								<h4>the story</h4>
+							</div>
+							<h2>about us</h2>
+						</div>
+						<div class="info-p">
+							<p>
+								Contrary to popular belief, Lorem Ipsum is not simply random
+								text. It has roots in a piece of classical Latin literature from
+								45 BC, making it over 2000 years old. Richard McClintock, a
+								Latin professor at Hampden-Sydney College in Virginia, looked up
+								one of the more obscure Latin words, consectetur cites of the
+								word in classical literature.
+							</p>
+							<p>
+								The standard chunk of Lorem Ipsum used since the 1500s is
+								reproduced below for those interested. Sections 1.10.32 and
+								1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+								reproduced in their exact original a latin professor at
+								Hampden-Sydney
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="about-text-cards">
+					<div class="card-container">
+						<div class="card">
+							<div class="tilte">
+								<div class="icon">
+									<img src="imgs/aboutus_card_icon_1.svg" alt="" />
+								</div>
+								<h3>Gamming NFTs</h3>
+							</div>
+							<p>
+								Latin professor at Hampden-Sydney College in Virginia, looked up
+								one of the more obscure.
+							</p>
+						</div>
+						<div class="card">
+							<div class="tilte">
+								<div class="icon">
+									<img src="imgs/aboutus_card_icon_2.svg" alt="" />
+								</div>
+								<h3>Play to Earn</h3>
+							</div>
+							<p>
+								Finibus Bonorum et Malorum" by Cicero are also reproduced in
+								their exact original.
+							</p>
+						</div>
+						<div class="card">
+							<div class="tilte">
+								<div class="icon">
+									<img src="imgs/aboutus_card_icon_3.svg" alt="" />
+								</div>
+								<h3>Metaverse Ready</h3>
+							</div>
+							<p>
+								Latin professor at Hampden-Sydney College in Virginia, looked up
+								one of the more obscure.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- RoadMap -->
+		<section class="roadmap-sec" id="roadmap">
+			<div class="container">
+				<div class="main-tilte">
+					<div class="top-head">
+						<h4>our goals</h4>
+					</div>
+					<h2>roadmap</h2>
+				</div>
+				<div class="roadmap-br">
+					<img src="imgs/roadmap-br.png" alt="" />
+				</div>
+				<div class="context-container">
+					<div class="content-text v1">
+						<div class="roadmap-tilte">
+							<h4>phase 01</h4>
+							<img src="imgs/roadmap_check.svg" alt="" />
+						</div>
+						<h3>Metaverse Launch</h3>
+						<p>
+							Pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth
+						</p>
+					</div>
+					<div class="content-text v2">
+						<div class="roadmap-tilte">
+							<h4>phase 02</h4>
+							<img src="imgs/roadmap_check.svg" alt="" />
+						</div>
+						<h3>50% Soldout</h3>
+						<p>
+							Pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth
+						</p>
+					</div>
+					<div class="content-text v3">
+						<div class="roadmap-tilte">
+							<h4>phase 03</h4>
+							<img src="imgs/roadmap_check.svg" alt="" />
+						</div>
+						<h3>Metaverse Launch</h3>
+						<p>
+							Pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth
+						</p>
+					</div>
+					<div class="content-text v4">
+						<div class="roadmap-tilte">
+							<h4>phase 04</h4>
+							<img class="loading" src="imgs/roadmap_loading.png" alt="" />
+						</div>
+						<h3>70% Soldout</h3>
+						<p>
+							Pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth
+						</p>
+					</div>
+					<div class="content-text v5">
+						<div class="roadmap-tilte">
+							<h4>phase 05</h4>
+							<img class="loading" src="imgs/roadmap_loading.png" alt="" />
+						</div>
+						<h3>80% Soldout</h3>
+						<p>
+							Pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth
+						</p>
+					</div>
+					<div class="content-text v6">
+						<div class="roadmap-tilte">
+							<h4>phase 06</h4>
+							<img class="loading" src="imgs/roadmap_loading.png" alt="" />
+						</div>
+						<h3>90% Soldout</h3>
+						<p>
+							Pleasure and praising pain was born and I will give you a complete
+							account of the system, and expound the actual teachings of the
+							great explorer of the truth
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="bithu-roadmap-mash-grad">
+				<img src="imgs/bithu_roadmap_mash_Grad.png" alt="" />
+			</div>
+		</section>
+		<!-- Team -->
+		<section class="team-sec" id="team">
+			<div class="team-overlay"></div>
+			<div class="container">
+				<div class="main-tilte">
+					<div class="top-head">
+						<h4>team members</h4>
+					</div>
+					<h2>meet the crew</h2>
+				</div>
+				<div class="team-container">
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_1.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Berneice Tran</h3>
+							<h4>Founder</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_2.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Nathan Bean</h3>
+							<h4>Co-Founder</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_3.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Lynnette Wilkes</h3>
+							<h4>Artist</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_4.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Claudia Hicks</h3>
+							<h4>Co-Artist</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_5.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Moneo Doa</h3>
+							<h4>UI Designer</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_6.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Tamsan Doe</h3>
+							<h4>Software Engineer</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_7.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Sony Jina</h3>
+							<h4>Blockchain Dev</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="team-card">
+						<span class="hov-shape1">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<span class="hov-shape2">
+							<img
+								src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg"
+								alt=""
+							/>
+						</span>
+						<div class="img">
+							<img src="imgs/team_member_img_8.png" alt="" />
+						</div>
+						<div class="team-info">
+							<h3>Natala Elon</h3>
+							<h4>SEO Engineer</h4>
+						</div>
+						<ul class="social-media">
+							<li>
+								<i class="fa-brands fa-linkedin-in"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-twitter"></i>
+							</li>
+							<li>
+								<i class="fa-brands fa-instagram"></i>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Questions -->
+		<section class="questions-sec" id="questions">
+			<div class="container">
+				<div class="main-tilte">
+					<div class="top-head">
+						<h4>questions & answers</h4>
+					</div>
+					<h2>frequently asked questions</h2>
+				</div>
+				<div class="questions-container">
+					<div class="accordion-item">
+						<div class="question">
+							<h4>What is MiNFT ?</h4>
+							<div class="question-btn">
+								<i class="fa-solid fa-plus plus-icon"></i>
+								<i class="fa-solid fa-minus minus-icon"></i>
+							</div>
+						</div>
+						<div class="answer">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="question">
+							<h4>How we can buy and invest NFT ?</h4>
+							<div class="question-btn">
+								<i class="fa-solid fa-plus plus-icon"></i>
+								<i class="fa-solid fa-minus minus-icon"></i>
+							</div>
+						</div>
+						<div class="answer">
+							<p>
+								It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="question">
+							<h4>Why we should choose MiNFT ?</h4>
+							<div class="question-btn">
+								<i class="fa-solid fa-plus plus-icon"></i>
+								<i class="fa-solid fa-minus minus-icon"></i>
+							</div>
+						</div>
+						<div class="answer">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="question">
+							<h4>Where we can buy and sell NFts ?</h4>
+							<div class="question-btn">
+								<i class="fa-solid fa-plus plus-icon"></i>
+								<i class="fa-solid fa-minus minus-icon"></i>
+							</div>
+						</div>
+						<div class="answer">
+							<p>
+								It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="question">
+							<h4>How secure is this token ?</h4>
+							<div class="question-btn">
+								<i class="fa-solid fa-plus plus-icon"></i>
+								<i class="fa-solid fa-minus minus-icon"></i>
+							</div>
+						</div>
+						<div class="answer">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="question">
+							<h4>What is your contract address ?</h4>
+							<div class="question-btn">
+								<i class="fa-solid fa-plus plus-icon"></i>
+								<i class="fa-solid fa-minus minus-icon"></i>
+							</div>
+						</div>
+						<div class="answer">
+							<p>
+								It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.
+							</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="faq-bg-wattermark">
+				<img src="imgs/faq_bg_wattermark.png" alt="" />
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="footer">
+			<section class="our-community-sec">
+				<div class="container">
+					<div class="title">
+						<h3>join our community &
+							<br>
+							get early access</h3>
+						<div class="title-emo">
+							🤙
+						</div>
+					</div>
+					<div class="stars">
+						<span class="star-1"><img src="imgs/star_4.svg" alt=""></span>
+						<span class="star-2"><img src="imgs/star_1.svg" alt=""></span>
+						<span class="star-3"><img src="imgs/star_6.svg" alt=""></span>
+						<span class="star-4"><img src="imgs/star_4.svg" alt=""></span>
+						<span class="star-5"><img src="imgs/star_5.svg" alt=""></span>
+						<span class="star-6"><img src="imgs/star_2.svg" alt=""></span>
+					</div>
+					<div class="btns">
+						<button class="btn whitelist hover">
+							<img src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg" class="before" alt="">
+							mint now
+							<img src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg" class="after" alt="">
+						</button>
+						<button class="btn discord-link hover">
+							<img src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg" class="before" alt="">
+							wishlist now
+							<img src="https://bithu.netlify.app/static/media/button-hover-shape.f2ab9dd7826838eb77a01cbe82c988f2.svg" class="after" alt="">
+						</button>
+					</div>
+					<div class="links">
+						<ul>
+							<li>
+								<a href="">
+									<img src="https://bithu.netlify.app/static/media/opensea.bb5ecc8e9331bbe98f033d3604f01f48.svg" alt="">
+								</a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							<li>
+								<a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							</li>
+							<li>
+								<a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							</li>
+							<li>
+								<a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg></a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							</li>
+							<li>
+								<a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							</li>
+							<li>
+								<a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg></a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							</li>
+							<li>
+								<a href="#"><img src="https://bithu.netlify.app/static/media/med.052418668731918bf87821e84560f15d.svg" alt="bithu nft profiles"></a>
+								<img src="https://bithu.netlify.app/static/media/hov_shape_L.e16f0a5e4f681f2815a0f85b5f12605d.svg" alt="" class="before"></li>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<div class="main-footer">
+				<div class="footer-overlay"></div>
+				<div class="shape-left">
+					<img src="imgs/shap_1.png" alt="">
+				</div>
+				<div class="shape-right">
+					<img src="imgs/shap_2.png" alt="">
+				</div>
+				<div class="three-charectre-img">
+					<img src="imgs/3_chr_img.png" alt="">
+				</div>
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="footer-menu flex flex-ai-c flex-jc-c">
+							<div class="copyright flex flex-ai-c">
+								<div class="logo">
+									<img src="imgs/logo.png" alt="">
+								</div>
+								<p>Copyright © <span id="cop-year"></span> Bithu</p>
+							</div>
+							<div class="up-btn">
+								<a href="#home">
+									<img src="	https://bithu.netlify.app/static/media/back_to_top.95379a964052df8bddca3513fe5c2096.svg" alt="">
+								</a>
+							</div>
+								<ul class="footer-links flex flex-ai-c">
+									<li><a href="#home" id="">home</a></li>
+									<li><a href="#about" id="">about</a></li>
+									<li><a href="#roadmap" id="">roadmap</a></li>
+									<li><a href="#team" id="">team</a></li>
+									<li><a href="#questions" id="">faq</a></li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<!-- Slick Js -->
+		<script src="js/slick.js"></script>
+		<!-- Main App -->
+		<script src="js/app.js"></script>
+	</body>
+</html>
